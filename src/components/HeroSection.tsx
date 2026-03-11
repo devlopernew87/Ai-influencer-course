@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Star, Users, Eye } from "lucide-react";
 import { useCountUp } from "@/hooks/useCountUp";
-import heroImg from "@/assets/hero-influencer.png";
+import heroImg from "@/assets/hero-influencer.webp";
 
 const AnimatedStat = ({ icon: Icon, value, suffix, label, divisor = 1 }: { icon: typeof Users; value: number; suffix: string; label: string; divisor?: number }) => {
   const { count, ref } = useCountUp(value, 2000);

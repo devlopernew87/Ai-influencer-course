@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { Check, Zap } from "lucide-react";
 
 const features = [
-  "8 comprehensive video modules",
-  "Lifetime access & free updates",
-  "Private community access",
-  "AI tool guides & templates",
-  "Monetization playbook",
-  "1-on-1 doubt clearing sessions",
-  "Certificate of completion",
-  "30-day money-back guarantee",
+  "No PC Required — Build Everything From Your Mobile",
+  "Beginner Friendly — No Technical Skills Needed",
+  "No Paid Software Required",
+  "Complete Step-by-Step Video Tutorials",
+  "Course Language: हिंदी (Easy to Understand)",
+  "Create Real AI Influencer Pages That Can Go Viral",
+  "Instant Access + Lifetime Updates",
+  "7-Day Money Back Guarantee",
 ];
 
 const PricingSection = () => (

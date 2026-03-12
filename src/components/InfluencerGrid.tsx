@@ -53,9 +53,13 @@ const InfluencerGrid = () => (
             <div className="relative w-full aspect-[9/16] rounded-xl overflow-hidden group">
               <img
                 src={inf.img}
-                alt={inf.name}
+                alt={`${inf.name} — AI Generated Influencer Portrait`}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
+                decoding="async"
+                width={360}
+                height={640}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 flex items-end justify-between">

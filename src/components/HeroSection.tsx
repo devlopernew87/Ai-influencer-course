@@ -59,9 +59,14 @@ const HeroSection = () => (
             <div className="glass-card p-2 rounded-2xl">
               <img
                 src={heroImg}
-                alt="AI Generated Influencer"
+                alt="AI Generated Influencer — Course Hero"
                 className="w-full rounded-xl object-cover aspect-[3/4]"
                 loading="eager"
+                fetchPriority="high"
+                decoding="async"
+                width={384}
+                height={512}
+                sizes="(max-width: 768px) 288px, (max-width: 1024px) 320px, 384px"
               />
             </div>
             <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 glass-card px-4 py-2 text-xs font-semibold text-gold flex items-center gap-2">

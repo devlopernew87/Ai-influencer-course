@@ -65,9 +65,13 @@ const TestimonialsSection = () => (
             <div className="relative aspect-[9/16] rounded-xl overflow-hidden group">
               <img 
                 src={src} 
-                alt={`AI Post ${i + 1}`} 
+                alt={`Student AI Influencer Result ${i + 1}`} 
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
-                loading="lazy" 
+                loading="lazy"
+                decoding="async"
+                width={360}
+                height={640}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent opacity-80" />
               <div className="absolute bottom-4 left-4 right-4">

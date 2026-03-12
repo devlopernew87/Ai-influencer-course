@@ -61,6 +61,8 @@ const OverviewSection = () => {
                 className="w-full h-full object-cover relative z-10"
                 controls={isPlaying}
                 onPlay={() => setIsPlaying(true)}
+                preload="none"
+                playsInline
               />
             </div>
           </div>

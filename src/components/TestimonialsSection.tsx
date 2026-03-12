@@ -5,7 +5,7 @@ import reel2 from "@/assets/reel-2.jpg";
 import reel3 from "@/assets/reel-3.jpg";
 import img1 from "@/assets/proof-1.webp";
 import img4 from "@/assets/proof-2.webp";
-import img6 from "@/assets/proof-3.jpg";
+import img6 from "@/assets/proof-3.webp";
 
 const reels = [reel1, reel2, reel3];
 const posts = [img1, img4, img6];

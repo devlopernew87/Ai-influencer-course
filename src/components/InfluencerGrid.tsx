@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { Eye } from "lucide-react";
-import inf1 from "@/assets/influencer-1.jpg";
-import inf2 from "@/assets/influencer-2.jpg";
-import inf3 from "@/assets/influencer-3.jpg";
-import inf4 from "@/assets/influencer-4.jpg";
-import inf5 from "@/assets/influencer-5.jpg";
-import inf6 from "@/assets/influencer-6.jpg";
-import inf7 from "@/assets/influencer-7.jpg";
-import inf8 from "@/assets/influencer-8.jpg";
-import inf9 from "@/assets/influencer-9.jpg";
+import inf1 from "@/assets/influencer-1.webp";
+import inf2 from "@/assets/influencer-2.webp";
+import inf3 from "@/assets/influencer-3.webp";
+import inf4 from "@/assets/influencer-4.webp";
+import inf5 from "@/assets/influencer-5.webp";
+import inf6 from "@/assets/influencer-6.webp";
+import inf7 from "@/assets/influencer-7.webp";
+import inf8 from "@/assets/influencer-8.webp";
+import inf9 from "@/assets/influencer-9.webp";
 
 const influencers = [
   { img: inf1, name: "Tanvi Joshi", views: "100M+ Views" },

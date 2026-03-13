@@ -59,7 +59,7 @@ const PricingSection = () => (
           <Zap size={24} className="text-gold mx-auto mb-4" />
           <p className="text-sm text-muted-foreground mb-2">One-time payment</p>
           <div className="mb-2">
-            <span className="text-muted-foreground text-lg line-through mr-2">₹999</span>
+            <span className="text-muted-foreground text-lg line-through mr-2">₹499</span>
           </div>
           <div className="text-5xl md:text-6xl font-bold mb-2">
             <span className="text-gradient-accent">₹199</span>

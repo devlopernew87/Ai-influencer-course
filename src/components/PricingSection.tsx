@@ -62,7 +62,7 @@ const PricingSection = () => (
             <span className="text-muted-foreground text-lg line-through mr-2">₹999</span>
           </div>
           <div className="text-5xl md:text-6xl font-bold mb-2">
-            <span className="text-gradient-accent">₹299</span>
+            <span className="text-gradient-accent">₹199</span>
           </div>
           <p className="text-muted-foreground text-sm mb-8">Limited time offer • 50% OFF</p>
           <a
